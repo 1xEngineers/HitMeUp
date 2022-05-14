@@ -5431,6 +5431,26 @@ native-x-icon@^1.0.11:
     react-native-svg "^12.1.0"
     tachyons-react-native "^1.0.4"
 
+native-x-list@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/native-x-list/-/native-x-list-1.3.1.tgz#e2db0adfa6ba3b5c37e8d0272f1f466e859d4cca"
+  integrity sha512-xFaU7rbfevSc/2GpbKoqsrrUAbw95+5Un/0/jEt8vF/N7LXR+TXlcN65R+NdNzKsrnWILJmbGr2Bp0k/U0sNbw==
+  dependencies:
+    native-x-spacer "^1.0.0"
+    native-x-spinner "^1.0.7"
+    native-x-stack "^1.0.12"
+    native-x-tappable "^1.0.4"
+    native-x-text "^1.0.10"
+    native-x-theme "^1.0.10"
+    tachyons-react-native "^1.0.4"
+
+native-x-spacer@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/native-x-spacer/-/native-x-spacer-1.0.0.tgz#6065dd7f88b98397c0f1f83a3e055b6b10381b4e"
+  integrity sha512-zyDJ+i9s9AKLDRZCHIWV7aYwF2Ms8d6PCAI+dkuvklUkFmuyWXiVcwIUgnEms2cOIRpQqW0eqvchpoVCmk/slw==
+  dependencies:
+    tachyons-react-native "^1.0.4"
+
 native-x-spinner@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/native-x-spinner/-/native-x-spinner-1.0.7.tgz#301b5436eb1c061edc8ab83c26bad1cdf90a0da0"
@@ -5451,6 +5471,14 @@ native-x-tappable@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/native-x-tappable/-/native-x-tappable-1.0.4.tgz#80a301d46e515f5b7806d4428ee246333b190b05"
   integrity sha512-kYYukllwvG2Q8fnpba1/ncbqQ8IkbL9m/0OCvqUer/w0FQt/pK+rW+zzLBvbo2do/AJF/Sc5pm5tPkN0PRSsiw==
+
+native-x-text@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/native-x-text/-/native-x-text-1.0.10.tgz#f765aadd8e858c328e09be02089383a9d40d28fb"
+  integrity sha512-eMbGI0tY3juR8+bU114uMaDf98TIwZ3/TVQ4P+Qsf12X6+ErUNtZfDi7Xuq7aYkIQwVC/bXbW6SzKiWhO6s79w==
+  dependencies:
+    native-x-theme "^1.0.10"
+    tachyons-react-native "^1.0.4"
 
 native-x-theme@^1.0.10:
   version "1.0.10"
