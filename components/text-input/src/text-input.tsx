@@ -70,13 +70,13 @@ function TextInputComponent(props: TextInputProps, ref?: React.Ref<any>) {
     onBlur,
     ...textInputProps
   } = props
-  const isEmpty = value == null || value === ''
+  const isEmpty = value === null || value === ''
   const backgroundColor = props.backgroundColor
     ? props.backgroundColor
     : disabled
     ? COLOR.DISABLED
     : COLOR.INPUT
-  const hasError = error != null
+  const hasError = error !== null
   const errorColorName = props.errorColor || COLOR.ERROR
   const textColor =
     hasError && !isEmpty
