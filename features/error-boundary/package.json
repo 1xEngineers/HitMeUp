@@ -1,5 +1,5 @@
 {
-  "name": "@hmu-component/page-header",
+  "name": "@gm-feature/error-boundary",
   "version": "1.0.0",
   "main": "src/index.ts",
   "license": "MIT",
