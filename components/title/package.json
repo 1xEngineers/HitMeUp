@@ -1,5 +1,5 @@
 {
-  "name": "@hmu-component/page-header",
+  "name": "@hmu-component/title",
   "version": "1.0.0",
   "main": "src/index.ts",
   "license": "MIT",

@@ -1,0 +1,11 @@
+{
+  "name": "@gm-feature/phone-number-picker",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react-native-country-flag": "^1.1.4",
+    "use-debounce": "^7.0.1"
+  }
+}
