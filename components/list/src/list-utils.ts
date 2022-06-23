@@ -32,10 +32,10 @@ export function useChildrenWithHeaderAndFooter<S>(
   let renderer!: ListRendererFn<S>
   const ids = Object.keys(children as any)
   if (ids.length === 0) {
-    return [null, children as any as ListRendererFn<S>, null]
+    return [null, children as ListRendererFn<S>, null]
   }
   ids.forEach(id => {
-    const child = (children as any)[id]
+    const child = [id]
     if (typeof child === 'function') {
       renderer = child
     } else if (renderer == undefined) {
